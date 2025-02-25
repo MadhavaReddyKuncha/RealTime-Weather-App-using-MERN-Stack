@@ -1,0 +1,107 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar li:hover {
+  background-color: #444;
+  cursor: pointer;
+}
+
+.weather-container {
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.weather-info {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.weather-info span {
+  font-weight: bold;
+}
+
+.input-field {
+  padding: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  margin-top: 1rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+.input-field:focus {
+  border-color: #646cff;
+  outline: none;
+}
+
+
+/* Update the color in the dropdown items */
+.suggestion-item {
+  color: white; /* Set the text color to white */
+}
+
+.suggestion-item:hover {
+  background-color: #2d2d2d; /* Dark background on hover for better visibility */
+}
