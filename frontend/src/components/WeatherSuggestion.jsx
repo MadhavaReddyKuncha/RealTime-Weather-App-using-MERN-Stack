@@ -10,7 +10,7 @@ const WeatherSuggestion = () => {
   const [error, setError] = useState("");
   const [recipientEmail, setRecipientEmail] = useState("");
 
-  const API_KEY = "b154513ca528fa4ab274895e75d91694"; // Replace with your OpenWeatherMap API Key
+  const API_KEY = ""; // Replace with your OpenWeatherMap API Key
 
   useEffect(() => {
     const storedEmail = localStorage.getItem("username");
