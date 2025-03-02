@@ -71,7 +71,7 @@ const WeatherForecast = () => {
         const res = await axios.get("https://api.openweathermap.org/data/2.5/find", {
           params: {
             q: inputValue,
-            appid: "b154513ca528fa4ab274895e75d91694", // Replace with your API key
+            appid: "", // Replace with your API key
             units: "metric",
             cnt: 5, // Use 'cnt' instead of 'limit'
           },
