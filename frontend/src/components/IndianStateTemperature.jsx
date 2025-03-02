@@ -24,7 +24,7 @@ const IndianStateTemperature = () => {
       setIsLoading(true);
       setError(null);
       try {
-        const API_KEY = "b154513ca528fa4ab274895e75d91694";
+        const API_KEY = "Your api key";
         // Create an array of API requests for each state's city.
         const requests = states.map((item) =>
           axios.get(
